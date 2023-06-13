@@ -1,0 +1,19 @@
+.input-bg {
+  background: #1c2025;
+}
+
+input {
+  border: 1px solid #1c2025;
+}
+
+input:focus {
+  border: 1px solid #282c31 !important;
+}
+
+.show-icon {
+  @apply cursor-pointer absolute text-4xl top-1 right-2 text-primary;
+}
+
+.input-style {
+  @apply text-white px-4 py-3 w-full rounded-full;
+}

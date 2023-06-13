@@ -1,0 +1,20 @@
+.bg-topbar {
+  background: #0c0f12;
+}
+
+.color-gray {
+  color: #6d6f71;
+}
+
+.update-button {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  background: #1877f2;
+  padding: 2px 8px;
+  line-height: 14px;
+}
+
+.button-style {
+  background: #1a1d22;
+}

@@ -1,0 +1,19 @@
+.btn-style {
+  @apply border-2 border-gray-600 rounded-full flex justify-center items-center;
+}
+
+.login-btn {
+  @apply bg-primary cursor-pointer text-white font-bold w-full py-3 rounded-full flex justify-center items-center;
+}
+
+.right-content-wrapper {
+  @apply w-full py-8 flex justify-center flex-col;
+}
+
+.login-head {
+  @apply text-2xl text-center block font-bold text-white;
+}
+
+.or-sign {
+  @apply mt-4 text-gray-500 text-center font-bold;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+  background: #1a1d22;
+}
+
+.history-wrapper {
+  background: #282b30;
+  @apply flex cursor-pointer py-2 justify-between rounded-t-md px-2 hover:bg-slate-700 transition-all;
+}
+
+.collaps-wrapper {
+  background: #1e2227;
+  @apply w-full px-6 mb-2 text-white pt-3 pb-3 inline-block;
+}
+
+.cus-border-t {
+  border-radius: 10px 10px 1px 1px;
+}
+
+.cus-border {
+  border-radius: 10px;
+}
+.left-content {
+  @apply w-2/4 rounded-full flex justify-end items-center;
+}
+.persent {
+  @apply text-white mr-1 font-bold;
+}
+
+.left-collaps-bg {
+  background: #2b2f34;
+}
+.right-content {
+  @apply rounded-full flex justify-start items-center;
+}
+
+.right-collaps-bg {
+  background: #35977d;
+}

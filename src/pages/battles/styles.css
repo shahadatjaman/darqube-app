@@ -1,0 +1,29 @@
+.ceter-content {
+  background: url("./icon.svg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+
+.h1-styled {
+  font-size: 34px;
+  @apply font-bold text-white text-center;
+}
+
+.button-style {
+  background: #b73556;
+  text-transform: uppercase;
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.button-style svg {
+  margin-right: 8px;
+  color: white;
+  font-weight: 700;
+}

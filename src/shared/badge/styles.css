@@ -1,0 +1,18 @@
+.wrapper {
+  position: relative;
+}
+
+.count-style {
+  background: #ed3262;
+  position: absolute;
+  top: -65%;
+  right: -80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.icon-style {
+}

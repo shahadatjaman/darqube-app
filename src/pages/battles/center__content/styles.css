@@ -1,0 +1,12 @@
+.battle-btn-wrapper {
+  @apply flex justify-center items-center border-2 border-gray-600 rounded-full;
+}
+
+.battle-btn {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.center-content-wrapper {
+  @apply flex flex-col justify-between items-center;
+}

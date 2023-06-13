@@ -1,0 +1,35 @@
+.pro-wrapper {
+  @apply flex flex-col justify-start items-center;
+}
+
+.points {
+  @apply bg-gray-700 px-3 py-1 rounded-xl text-xs text-white mt-4 inline-block;
+}
+
+.persent {
+  @apply bg-secondary px-4 h-6 text-sm flex justify-center items-center rounded-xl text-white mt-3;
+}
+
+.left-pro {
+  @apply w-1/2 flex justify-center items-center;
+}
+
+.right-pro {
+  @apply w-1/2 flex justify-center items-center;
+}
+
+.border-icon {
+  @apply text-center relative border-b-4 border-gray-800 w-2/3 mx-auto flex justify-center items-center mt-7;
+}
+
+.pro-name {
+  @apply text-white text-lg mt-4;
+}
+
+.li-cate {
+  @apply rounded-xl px-3 capitalize cursor-pointer;
+}
+
+.bg {
+  background: #1a1d22;
+}

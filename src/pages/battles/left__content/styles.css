@@ -1,0 +1,20 @@
+.dis-button {
+  background: #1a1d22;
+  padding: 16px 1rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.profile-wrapper {
+  background: #1a1d22;
+}
+
+.loss {
+  color: #ed3262;
+}
+
+.text-color {
+  color: #636466;
+}

@@ -1,0 +1,37 @@
+.large-text {
+  line-height: 1.2;
+}
+
+.succest-btn {
+  border: 1px solid #4d4949;
+  color: #3dbb9a;
+}
+.active-success {
+  border: 1px solid #3dbb9a !important;
+}
+
+.danger-btn {
+  border: 1px solid #4d4949;
+  color: red;
+}
+.active-danger {
+  border: 1px solid red !important;
+}
+
+.btn {
+  padding: 8px 1.5rem;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  font-size: 24px;
+}
+
+.btn-shadow:hover {
+  box-shadow: 1px 1px 26px 6px #3dbb9a;
+}

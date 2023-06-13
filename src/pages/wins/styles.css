@@ -1,0 +1,13 @@
+.count-heart-style {
+  @apply absolute top-0 flex justify-center items-center -right-4 w-10 h-10 bg-secondary rounded-full;
+}
+.investor-wrapper {
+  @apply mb-12  mt-20  items-center w-full;
+}
+.investor-left {
+  @apply relative bg-slate-800 flex justify-between items-end h-12 rounded-full;
+}
+
+.investor-right {
+  @apply relative bg-primary flex justify-end items-end h-12 rounded-full;
+}

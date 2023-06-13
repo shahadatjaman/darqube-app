@@ -1,0 +1,28 @@
+.input-wrapper {
+  border-radius: 50px;
+  overflow: hidden;
+  height: 36px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  @apply rounded-full  overflow-hidden flex justify-start items-center h-9;
+}
+
+svg {
+  color: #6d6f71;
+}
+.input-bg {
+  background: #1e2227;
+}
+.input-bg::placeholder {
+  color: #6d6f71;
+}
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.input-styled {
+  @apply h-full font-normal;
+}

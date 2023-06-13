@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #13161b;
+}
+/* 
+body {
+  height: 100vh;
+  background: #13161b;
+} */
+
+.text-color {
+  color: #636466;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+/* Custom crollbar */
+.custom-scrollbar {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #dddddd;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #1a1d22;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #383d46;
+  border-radius: 4px;
+}
+
+.scroll-content {
+  height: 1000px; /* Set the height according to your content */
+}

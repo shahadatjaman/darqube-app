@@ -1,0 +1,25 @@
+.bg {
+  background: #1a1d22;
+}
+
+.heart {
+  background: #383d46;
+}
+
+.sm-text {
+  font-size: 10px;
+}
+
+.heat-svg svg {
+  color: #b03454;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.id-styled {
+  @apply w-6 h-6 flex justify-center items-center text-sm font-bold rounded-full;
+}
+
+.item-wrapper {
+  @apply my-3 border-b-2 border-gray-700 pb-4;
+}
