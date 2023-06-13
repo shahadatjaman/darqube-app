@@ -1,0 +1,33 @@
+progress {
+  width: 100%;
+  height: 5px;
+  background-color: #262a30 !important;
+  border-radius: 10px; /* border radius value */
+  overflow: hidden; /* hide overflow for rounded corners */
+}
+
+progress::-webkit-progress-value {
+  background-color: #22a180; /* new background color */
+}
+
+progress::-moz-progress-bar {
+  background-color: #22a180; /* new background color */
+}
+
+progress::-ms-fill {
+  background-color: #22a180; /* new background color */
+}
+
+progress {
+  color: red;
+}
+
+/* background: */
+progress::-webkit-progress-bar {
+  background-color: black;
+  width: 100%;
+}
+progress {
+  background-color: #262a30;
+  transform: rotate(180deg);
+}
